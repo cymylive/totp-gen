@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">github2FA</string>
+    <string name="add">＋ 添加</string>
+    <string name="delete">－ 删除</string>
+    <string name="empty_hint">还没有账号，点右上角＋添加</string>
+    <string name="copy_toast">已复制验证码</string>
+    <string name="copied_toast">已复制：%1$s → %2$s</string>
+    <string name="dialog_add_title">添加账号</string>
+    <string name="dialog_edit_title">编辑账号</string>
+    <string name="field_name">名称（如 GitHub）</string>
+    <string name="field_secret">Secret（Base32）或 otpauth:// 链接</string>
+    <string name="field_hint">提示：粘贴 otpauth:// 链接会自动解析名称和 secret</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="err_empty_name">请填写名称</string>
+    <string name="err_empty_secret">请填写 secret</string>
+    <string name="err_bad_secret">secret 不是合法的 Base32</string>
+    <string name="err_bad_otpauth">otpauth 链接解析失败</string>
+    <string name="confirm_delete">删除账号 %1$s ？</string>
+    <string name="confirm_overwrite">已存在同名账号 %1$s，是否覆盖？</string>
+</resources>
