@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# 本地数据（secret 绝不入库）
+vault.dat
+*.dat
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
